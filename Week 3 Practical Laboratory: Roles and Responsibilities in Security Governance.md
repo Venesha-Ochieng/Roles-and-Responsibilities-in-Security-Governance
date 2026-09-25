@@ -149,63 +149,27 @@ The structure is scalable. As TechGlobal expands, additional Business Unit repre
 
 A governance chart only becomes effective when decision rights and accountabilities are explicit.
 
-### 3.5 Show how decisions and risk information move from operational forums to executive management and, where material, to the Board.
+## 2.1 Develop a responsibility profile for the Board, CEO, CISO, CRO/Risk, Legal, Finance, HR and IT.
 
-The governance model establishes a structured escalation and reporting path that ensures cybersecurity risks, incidents, control weaknesses, exceptions, and governance decisions are reviewed at the appropriate level of authority. Routine operational matters are managed within operational teams and Working Groups, while significant, high-risk, or risk-appetite-exceeding matters are progressively escalated to executive management and the Board.
+| Role | Purpose | Key Governance Responsibilities | Decision Authority | Reporting Obligations | KPIs |
+|------|---------|---------------------------------|-------------------|----------------------|------|
+| **Board** | Provide ultimate oversight of enterprise cybersecurity risk and ensure alignment with organizational strategy and risk appetite. | Set and oversee cyber-risk appetite, challenge management on material cyber risks, oversee significant incidents and assurance findings, monitor major remediation actions, hold executive management accountable. | Approves risk appetite and matters reserved for Board authority, including risks exceeding executive authority. | Receives regular and event-driven reporting on material cyber risks, incidents, assurance findings and risk-appetite breaches. | • Material cyber risks outside appetite.<br>• Percentage of Board cyber actions completed by due date. |
+| **CEO** | Provide executive accountability for cybersecurity governance and ensure security supports business objectives. | Translate Board direction into enterprise priorities, ensure adequate resources, oversee execution of security strategy, resolve significant cross-functional issues, ensure appropriate escalation of material risks and incidents. | Approves enterprise security policies, major security investments and risk acceptance within delegated executive authority. | Reports material cyber risks, incidents and significant governance matter to the Board. | • Percentage of executive cyber-risk actions completed on time.<br>• Number of overdue material risk-treatment actions. |
+| **CISO** | Lead enterprise cybersecurity governance, strategy and cyber-risk oversight. | Develop security strategy, policies and standards, oversee cyber risk and control effectiveness, coordinate security governance, oversee security architecture and incident-response governance, provide cybersecurity reporting. | Approves security standards and architecture within delegated authority, recommends risk treatment or acceptance, authorises security actions within mandate, escalates material risk. | Reports cybersecurity posture, significant incidents, control weaknesses and material risks to the CEO and Board as appropriate. | • Percentage of critical/high-risk remediation completed within agreed timelines.<br>• Percentage of security policies reviewed within the approved cycle. |
+| **CRO/Risk** | Integrate cybersecurity risk into enterprise risk management and provide independent risk challenge. | Maintain risk methodology and the enterprise risk register, challenge cyber-risk assessments and treatment decisions, monitor risk appetite, aggregate cyber risk into the enterprise risk profile and monitor accepted risks. | Establishes risk methodology and criteria, challenges risk assessments and treatment decisions, escalates risks exceeding appetite or delegated authority. | Reports significant cyber-risk exposure, appetite breaches and unresolved risks to the CEO and Board. | • Percentage of material cyber-risk reviews completed on schedule.<br>• Number and age of risks outside appetite or overdue for review. |
+| **Legal** | Ensure cybersecurity decisions consider applicable legal, regulatory and contractual obligations. | Interpret applicable legal requirements, assess notification obligations, advise on evidence handling and regulatory engagement, review relevant contractual requirements, support incident and compliance matters. | Provides authoritative legal interpretation and determines applicable legal obligations. | Reports significant legal and regulatory exposure to the CEO and escalates material matters through established governance channels. | • Notification assessments completed within required timelines.<br>• Percentage of significant legal/compliance actions completed by due date. |
+| **Finance** | Provide financial governance for cybersecurity investment and cyber-risk decisions. | Coordinate security budgeting, assess investment proposals, quantify financial exposure from cyber risks and incidents, monitor approved expenditure and support financial assessment of significant risks. | Approves expenditure within delegated financial authority and provides financial challenge to security investment proposals. | Reports significant budget variances, investment requirements and material financial exposure to the CEO. | • Security expenditure variance against approved budget.<br>• Percentage of approved priority security investments tracked to completion. |
+| **HR** | Integrate cybersecurity requirements into workforce governance and people processes. | Coordinate joiner/mover/leaver processes, manage security awareness and training, oversee employee conduct and disciplinary processes and support insider-risk investigations. | Approves HR and disciplinary actions within established policies and employment procedures. | Reports significant workforce-related security risks, awareness performance and personnel-control issues to the CEO and relevant governance forums. | • Mandatory security-awareness completion rate.<br>• Percentage of joiner/mover/leaver security actions initiated within required timelines. |
+| **IT** | Implement and operate technology services and technical security controls in accordance with approved security requirements. | Implement technical controls and security architecture, operate infrastructure and access provisioning, remediate vulnerabilities, support incident response and execute technical continuity and recovery activities. | Makes operational technology decisions within approved architecture, security policies and change-management authority and escalates risks outside its authority. | Reports significant vulnerabilities, control failures, incidents and unresolved security risks to the CISO and executive management as appropriate. | • Percentage of critical vulnerabilities remediated within SLA.<br>• Service availability and recovery performance against approved targets. |
 
-#### Cyber-Risk Information and Decision Flow
+## 2.2 Identify at least three areas where authority could overlap or conflict and explain how the governance model should resolve those conflicts.
 
-```text
-Operational Teams / Security Operations / Business Units
-                    │
-                    ▼
-Specialised Working Groups
-(Incident Response, Third-Party Risk,
-Cloud Security, Data Governance, etc.)
-                    │
-                    ▼
-Security Governance / Steering Committee (SGC)
-                    │
-                    │
-       Risks, issues or decisions within
-       committee authority resolved here
-                    │
-                    ▼
-Executive Security Council (ESC)
-                    │
-                    │
-      Material risks, major incidents,
-      significant investments, risk-appetite
-      breaches or Board-reserved matters
-                    │
-                    ▼
-Risk & Audit Committee
-                    │
-                    ▼
-Board of Directors
-```
-
-#### Information Flow Responsibilities
-
-| Governance Level | Primary Responsibilities | Key Outputs |
-|------------------|-------------------------|-------------|
-| Operational Teams / Business Units | Identify risks, vulnerabilities, incidents, exceptions and control weaknesses; implement controls and remediation actions. | Incident reports, risk assessments, remediation updates and exception requests. |
-| Specialised Working Groups | Review operational issues, coordinate investigations, assess impact, develop recommendations and monitor corrective actions. | Escalation reports, lessons learned, remediation recommendations and operational risk updates. |
-| Security Governance / Steering Committee (SGC) | Review cross-functional risks, policy issues, control weaknesses, remediation status and significant exceptions. | Governance decisions, approved action plans, policy recommendations and escalated matters. |
-| Executive Security Council (ESC) | Review material cyber risks, significant incidents, strategic issues and major security investments. | Executive decisions, resource allocations, risk-treatment direction and Board escalation recommendations. |
-| Risk & Audit Committee | Review material cyber-risk exposure, risk appetite compliance, assurance results and executive responses. | Oversight decisions, recommendations and matters requiring Board attention. |
-| Board of Directors | Provide ultimate governance oversight and approve matters exceeding executive authority or risk appetite. | Strategic direction, risk appetite decisions and Board-approved actions. |
-
-#### Escalation Principles
-
-- Routine operational issues remain within operational teams and Working Groups.
-- Cross-functional issues, policy conflicts and significant control weaknesses are escalated to the Security Governance / Steering Committee.
-- Material risks, significant incidents, major investment decisions and unresolved governance issues are escalated to the Executive Security Council.
-- Risks that exceed approved risk appetite, have significant regulatory, financial or reputational impact, or require reserved authority are escalated to the Risk & Audit Committee and Board of Directors.
-- Decisions, actions and escalations are formally documented through meeting minutes, action registers, risk registers and governance reporting mechanisms.
-
-This escalation framework ensures that cybersecurity decisions are made at the appropriate level, that material risks receive executive and Board visibility, and that accountability is maintained throughout the governance structure.
-
+| Overlap Area | Nature of the Conflict | Resolution Principle |
+|-------------|-----------------------|---------------------|
+| **CISO vs IT - Security architecture and control implementation** | The CISO defines security requirements and oversees cyber risk, while IT is responsible for implementing and operating technical controls. Conflict may arise when security requirements affect cost, system performance, technical feasibility or service delivery. | The CISO defines security requirements and approves security architecture within delegated authority, while IT designs, implements and operates the controls. IT may propose exceptions but cannot independently waive security requirements. Unresolved material risks are escalated through the established governance process. |
+| **CISO vs CRO/Risk - Cyber-risk assessment and acceptance** | Both functions participate in cyber-risk management, creating potential overlap between technical risk assessment, independent challenge and formal risk acceptance. | The CISO assesses cybersecurity exposure and recommends appropriate treatment, while CRO/Risk maintains the enterprise risk methodology and independently challenges the assessment and proposed treatment. Final risk acceptance rests with the authorized business, executive or Board-level risk owner according to delegated authority. |
+| **Legal vs CISO - Regulatory notification** | Legal determines applicable legal and regulatory obligations, but relies on technical information from the CISO to understand the scope, impact and circumstances of a cybersecurity incident. | The CISO establishes and provides the technical facts and security impact, while Legal determines the applicable notification obligations. Any material disagreement is escalated to the CEO through the established escalation process. |
+| **Finance vs CISO - Security investment and budget prioritization** | The CISO may identify security investments required to reduce significant cyber risk, while Finance must consider affordability, budget constraints and competing organizational priorities. | The CISO documents the risk exposure, proposed treatment and expected risk reduction, while Finance assesses affordability and financial implications. Where agreement cannot be reached, the matter is escalated to the CEO for a decision within delegated authority, or to the Board where required. |
 
 ```
 
