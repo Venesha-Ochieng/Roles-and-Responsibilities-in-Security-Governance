@@ -149,6 +149,63 @@ The structure is scalable. As TechGlobal expands, additional Business Unit repre
 
 A governance chart only becomes effective when decision rights and accountabilities are explicit.
 
+### 3.5 Show how decisions and risk information move from operational forums to executive management and, where material, to the Board.
+
+The governance model establishes a structured escalation and reporting path that ensures cybersecurity risks, incidents, control weaknesses, exceptions, and governance decisions are reviewed at the appropriate level of authority. Routine operational matters are managed within operational teams and Working Groups, while significant, high-risk, or risk-appetite-exceeding matters are progressively escalated to executive management and the Board.
+
+#### Cyber-Risk Information and Decision Flow
+
+```text
+Operational Teams / Security Operations / Business Units
+                    │
+                    ▼
+Specialised Working Groups
+(Incident Response, Third-Party Risk,
+Cloud Security, Data Governance, etc.)
+                    │
+                    ▼
+Security Governance / Steering Committee (SGC)
+                    │
+                    │
+       Risks, issues or decisions within
+       committee authority resolved here
+                    │
+                    ▼
+Executive Security Council (ESC)
+                    │
+                    │
+      Material risks, major incidents,
+      significant investments, risk-appetite
+      breaches or Board-reserved matters
+                    │
+                    ▼
+Risk & Audit Committee
+                    │
+                    ▼
+Board of Directors
+```
+
+#### Information Flow Responsibilities
+
+| Governance Level | Primary Responsibilities | Key Outputs |
+|------------------|-------------------------|-------------|
+| Operational Teams / Business Units | Identify risks, vulnerabilities, incidents, exceptions and control weaknesses; implement controls and remediation actions. | Incident reports, risk assessments, remediation updates and exception requests. |
+| Specialised Working Groups | Review operational issues, coordinate investigations, assess impact, develop recommendations and monitor corrective actions. | Escalation reports, lessons learned, remediation recommendations and operational risk updates. |
+| Security Governance / Steering Committee (SGC) | Review cross-functional risks, policy issues, control weaknesses, remediation status and significant exceptions. | Governance decisions, approved action plans, policy recommendations and escalated matters. |
+| Executive Security Council (ESC) | Review material cyber risks, significant incidents, strategic issues and major security investments. | Executive decisions, resource allocations, risk-treatment direction and Board escalation recommendations. |
+| Risk & Audit Committee | Review material cyber-risk exposure, risk appetite compliance, assurance results and executive responses. | Oversight decisions, recommendations and matters requiring Board attention. |
+| Board of Directors | Provide ultimate governance oversight and approve matters exceeding executive authority or risk appetite. | Strategic direction, risk appetite decisions and Board-approved actions. |
+
+#### Escalation Principles
+
+- Routine operational issues remain within operational teams and Working Groups.
+- Cross-functional issues, policy conflicts and significant control weaknesses are escalated to the Security Governance / Steering Committee.
+- Material risks, significant incidents, major investment decisions and unresolved governance issues are escalated to the Executive Security Council.
+- Risks that exceed approved risk appetite, have significant regulatory, financial or reputational impact, or require reserved authority are escalated to the Risk & Audit Committee and Board of Directors.
+- Decisions, actions and escalations are formally documented through meeting minutes, action registers, risk registers and governance reporting mechanisms.
+
+This escalation framework ensures that cybersecurity decisions are made at the appropriate level, that material risks receive executive and Board visibility, and that accountability is maintained throughout the governance structure.
+
 
 ```
 
