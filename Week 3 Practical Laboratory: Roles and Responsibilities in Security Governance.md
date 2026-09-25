@@ -171,5 +171,143 @@ A governance chart only becomes effective when decision rights and accountabilit
 | **Legal vs CISO - Regulatory notification** | Legal determines applicable legal and regulatory obligations, but relies on technical information from the CISO to understand the scope, impact and circumstances of a cybersecurity incident. | The CISO establishes and provides the technical facts and security impact, while Legal determines the applicable notification obligations. Any material disagreement is escalated to the CEO through the established escalation process. |
 | **Finance vs CISO - Security investment and budget prioritization** | The CISO may identify security investments required to reduce significant cyber risk, while Finance must consider affordability, budget constraints and competing organizational priorities. | The CISO documents the risk exposure, proposed treatment and expected risk reduction, while Finance assesses affordability and financial implications. Where agreement cannot be reached, the matter is escalated to the CEO for a decision within delegated authority, or to the Board where required. |
 
+# Task 3 Security Governance Committee Ecosystem (20 marks)
+
+Security governance requires formal forums where risk, investment, compliance and technology decisions can be reviewed and resolved collectively rather than by one department.
+
+## 3.1 Design an Executive Security Council for strategic oversight.
+
+Executive Security Council (ESC) is established as the senior management forum responsible for strategic cybersecurity oversight and executive-level decision-making. The Council focuses on material cyber risks, major security investments, significant incidents and unresolved governance matters that exceed the authority of the Security Governance/Steering Committee. It provides the principal management-level link between cybersecurity governance and the Board/Risk Committee.
+
+| Element | Executive Security Council Design |
+|----------|----------------------------------|
+| **Purpose** | Provide executive-level strategic oversight of cybersecurity and ensure significant security risks and decisions are aligned with TechGlobal’s business objectives and risk appetite. |
+| **Chair** | CEO |
+| **Membership** | CEO, CISO, CRO/Risk, IT, Legal, Finance and HR. Business Unit leaders may attend when matters affecting their operations are considered. |
+| **Core Responsibilities** | Review cybersecurity strategy and performance; review material cyber risks and incidents; consider major security investments; resolve significant cross-functional issues; monitor risks approaching or exceeding appetite; oversee significant remediation actions; and escalate Board-reserved matters. |
+| **Decision Authority** | Makes cybersecurity decisions within executive delegated authority, including prioritization of resources and risk-treatment decisions. Matters exceeding executive authority or Board-approved risk appetite are escalated to the Board/Risk Committee. |
+| **Meeting Cadence** | Quarterly, with emergency or ad hoc meetings for material incidents, significant risk exposure or urgent decisions. |
+| **Inputs** | Cyber-risk reports, KRIs/KPIs, material incident reports, significant policy exceptions, major investment proposals, risk-treatment updates and matters escalated by the Security Governance/Steering Committee. |
+| **Outputs** | Executive decisions, approved priorities, assigned actions, risk-treatment directions, resource decisions and matters formally escalated to the Board/Risk Committee. |
+| **Escalation** | Receives matters requiring executive authority from the Security Governance/Steering Committee and escalates material, appetite-breaching or Board-reserved matters to the Board/Risk Committee. |
+| **Records / Evidence** | Meeting agendas, attendance records, minutes, decision logs, assigned action owners, target dates and documented escalation decisions. |
+
+---
+
+## 3.2 Design a Security Governance / Steering Committee for cross-functional governance decisions.
+
+Security Governance / Steering Committee (SGC) is established as the primary forum for cross-functional cybersecurity governance decisions which focuses on strategic and material matters, the SGC focuses on coordinating security governance across Risk, IT, Legal, Finance, HR and Business Units. It reviews enterprise security issues, resolves matters within its delegated authority and escalates significant or unresolved matters to the Executive Security Council.
+
+| Element | Detail |
+|----------|--------|
+| **Purpose** | Provide a cross-functional forum for reviewing and coordinating cybersecurity risk, policy, compliance, control, exception and remediation matters across TechGlobal. |
+| **Chair** | CISO. |
+| **Membership** | CISO (Chair), CRO/Risk, IT, Legal, Finance, HR and Business Unit Security Liaisons. Relevant specialists participate when required by the agenda. |
+| **Cross-Functional Responsibilities** | Review cyber risks and treatment actions; review and recommend security policies; assess significant policy/control exceptions; monitor critical remediation; review third-party and technology-related risks; review significant incidents and lessons learned; monitor governance KPIs/KRIs; coordinate Business Unit participation; and direct relevant Working Group activities. |
+| **Decision Authority** | Makes cross-functional governance decisions within delegated Committee authority; assigns action owners and due dates; reviews recommendations from Working Groups; and recommends or escalates matters requiring executive authority. Formal risk acceptance remains with the appropriately authorized risk owner. |
+| **Meeting Frequency** | Monthly, with ad hoc meetings for urgent or time-sensitive governance matters. |
+| **Receives From** | Business Unit Security Liaisons, Incident Response Working Group, Third-Party Risk Working Group, IT and other operational or specialist functions. |
+| **Escalates To** | Executive Security Council when risks, investments, conflicts or decisions exceed the Committee’s delegated authority or require executive action. |
+| **Key Outputs** | Governance decisions, policy recommendations, approved action plans, remediation priorities, Working Group assignments, documented exceptions and recommendations for executive consideration. |
+| **Records / Evidence** | Agendas, attendance records, evidence packs, minutes, decisions and rationale, action owners, due dates, exception records and escalation records maintained in the governance repository. |
+| **Review Cycle** | Committee effectiveness and Terms of Reference are reviewed annually or following significant governance changes or material cybersecurity events. |
+
+---
+
+## 3.3 Define one specialised Working Group appropriate to TechGlobal (for example Incident Response, Cloud Security or Third-Party Risk).
+
+| Element | Detail |
+|----------|--------|
+| **Purpose** | Provide specialized operational coordination for cybersecurity incident preparedness, response, recovery and post-incident improvement across TechGlobal. |
+| **Scope** | Covers cybersecurity incident readiness, triage, containment, investigation support, recovery, evidence preservation, post-incident review and corrective-action tracking across all TechGlobal Business Units and offices. |
+| **Membership** | Security/Incident Response Lead (Chair), IT representative, Legal representative, HR representative, Communications representative and representatives from affected Business Units. Other specialists participate when required by the nature of an incident. |
+| **Frequency** | As needed during cybersecurity incidents, with periodic readiness exercises and reviews to test incident-response plans and procedures. |
+| **Responsibilities** | Maintain and test incident-response plans and playbooks; coordinate incident triage, containment and recovery; assess incident scope and business impact; support investigations; preserve relevant evidence; conduct post-incident reviews; document lessons learned; and track corrective actions. |
+| **Decision Rights** | Coordinates operational incident-response actions within approved procedures and delegated authority. The Working Group does not independently accept material business risk or make executive-level, regulatory-notification or Board-reserved decisions. |
+| **Escalation** | Significant incidents, unresolved control weaknesses and governance actions are escalated to the Security Governance/Steering Committee. Matters requiring executive authority or involving material risk are escalated through the Committee to the Executive Security Council. |
+| **Reporting Line** | Reports incident status, significant findings, lessons learned and remediation recommendations to the Security Governance/Steering Committee. Urgent or material matters are escalated immediately through the established governance structure. |
+| **Records / Evidence** | Maintains incident logs, response timelines, evidence records, decisions and rationale, action owners, due dates, recovery records and post-incident review reports. |
+| **Review Cycle** | The Working Group’s mandate, membership, incident-response procedures and effectiveness are reviewed annually and following significant cybersecurity incidents or major organizational changes. |
+
+---
+
+## 3.4 Define how Business Units will participate in governance without creating separate security silos.
+
+Business Unit Security Liaison model is used to ensure that all Business Units and offices participate in cybersecurity governance while remaining within a single enterprise-wide governance framework. Each Business Unit or office will nominate a Security Liaison to represent its operational needs, risks and implementation challenges within the Security Governance / Steering Committee (SGC).
+
+| Element | Approach |
+|----------|----------|
+| **Representation** | Each Business Unit or office nominates a Business Unit Security Liaison to represent it in the Security Governance / Steering Committee and relevant Working Groups when required. |
+| **Governance Alignment** | All Business Units follow the same enterprise cybersecurity policies, standards, risk methodology, escalation thresholds and governance processes rather than creating separate local security governance structures. |
+| **Local Risk Identification** | Business Unit Security Liaisons identify and communicate local cybersecurity risks, control weaknesses, exceptions and operational concerns to the SGC. |
+| **Decision Participation** | Business Unit representatives provide business context and contribute to cross-functional discussions and decisions that affect their operations. |
+| **Implementation** | Business Unit leaders remain responsible for implementing approved security requirements and remediation actions within their areas of responsibility. |
+| **Risk and Exception Escalation** | Risks and exceptions that cannot be resolved within the Business Unit’s delegated authority are submitted through the established governance process to the SGC and, where necessary, escalated to the Executive Security Council. |
+| **Communication** | Security Liaisons communicate enterprise security decisions, policies and assigned actions back to their Business Units and provide progress updates to the SGC. |
+| **Accountability** | Business Unit leaders retain accountability for business risks and implementation within their areas, while the CISO maintains enterprise cybersecurity governance and oversight. |
+| **Avoiding Silos** | Business Units do not establish independent security policies, risk methodologies or decision-making structures. Their participation is embedded within TechGlobal’s central governance forums, ensuring consistency while preserving local business input. |
+
+---
+
+## 3.5 Show how decisions and risk information move from operational forums to executive management and, where material, to the Board.
+
+The governance model establishes a structured escalation and reporting pathway that ensures cybersecurity risks, incidents, exceptions, remediation issues and governance decisions are reviewed at the appropriate level of authority. Routine operational matters are handled within operational forums, while significant and material matters are progressively escalated to executive management and the Board according to predefined thresholds and delegated authority.
+
+```text
+BOARD / RISK COMMITTEE
+(Board Oversight)
+│
+│ Receives:
+│ • Material cyber risks
+│ • Risk appetite breaches
+│ • Significant incidents
+│ • Board-reserved decisions
+│ • Annual cyber-risk reporting
+│
+▼
+EXECUTIVE SECURITY COUNCIL (ESC)
+(Executive Management)
+│
+│ Receives:
+│ • Significant incidents
+│ • High or material risks
+│ • Major investment requests
+│ • Unresolved SGC matters
+│ • Risks requiring executive authority
+│
+▼
+SECURITY GOVERNANCE / STEERING COMMITTEE (SGC)
+(Cross-Functional Governance)
+│
+│ Receives:
+│ • Risk assessments
+│ • Policy exceptions
+│ • Incident findings
+│ • Vulnerability and control issues
+│ • Working Group recommendations
+│
+▼
+OPERATIONAL FORUMS
+├── Business Units
+├── Incident Response Working Group
+├── IT / Security Operations
+└── Other Specialised Working Groups
+```
+
+### Information Escalation Flow
+
+| Governance Level | Information Received | Decisions / Outputs |
+|------------------|---------------------|---------------------|
+| **Operational Forums** | Incidents, vulnerabilities, control weaknesses, operational risks, exceptions and remediation updates. | Operational actions, incident-response activities, recommendations and escalation items. |
+| **Security Governance / Steering Committee (SGC)** | Risks, incidents, exceptions, Working Group recommendations, remediation requirements and governance issues. | Governance decisions, policy recommendations, remediation priorities, approved exceptions and escalations. |
+| **Executive Security Council (ESC)** | Material risks, major incidents, significant investments, unresolved governance issues and risks requiring executive authority. | Executive priorities, resource allocation, investment approval, risk-treatment direction and Board escalation. |
+| **Board / Risk Committee** | Material cyber risks, risk appetite breaches, significant incidents, assurance findings and Board-reserved matters. | Risk appetite decisions, strategic direction, oversight actions, approvals and governance challenge. |
+
+### Decision and Direction Flow
+
+Risk information flows **upward** through the governance structure to ensure increasing levels of oversight and authority are applied to significant issues. Strategic decisions, approved actions, remediation requirements, governance expectations and risk-treatment directions flow **downward** from the Board and Executive Security Council through the Security Governance / Steering Committee to operational teams for implementation.
+
+This model ensures that operational issues are addressed efficiently, significant risks receive executive attention, and material cybersecurity matters receive appropriate Board oversight and challenge.
+
 ```
 
