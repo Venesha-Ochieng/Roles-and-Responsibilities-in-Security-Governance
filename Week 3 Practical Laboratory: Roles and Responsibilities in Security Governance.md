@@ -128,19 +128,21 @@ Risk & Audit Committee
         │
         ▼
 Board of Directors
-```
-```
 
 ### 1.4 Explain why the proposed structure is appropriate for a 2,500-employee technology organisation operating across five offices.
 
-The proposed governance structure is proportionate to TechGlobal’s size, complexity, and operating model. With approximately 2,500 employees distributed across five offices, the organisation requires a governance framework that strengthens accountability, risk oversight, and decision-making while avoiding unnecessary bureaucracy. The proposed structure addresses the weaknesses of the existing IT-centric model and provides a practical, scalable approach to security governance.
+The proposed governance structure is proportionate to TechGlobal’s size, complexity, and operating model. With approximately 2,500 employees distributed across five offices, the organisation requires a governance framework that strengthens accountability, risk oversight, and decision-making while avoiding unnecessary bureaucracy.
 
-A key strength of the model is the clear separation of governance oversight, executive accountability, security leadership, and technology operations. The **Board of Directors** provides ultimate oversight, supported by the **Risk & Audit Committee** for focused review of cybersecurity risk and assurance matters. The **CEO** retains executive accountability, while the **CISO**, **CRO/Risk**, **Legal/Compliance**, **Finance**, **HR**, and **IT/Technology** functions contribute their specialist expertise. This reduces excessive concentration of decision-making within IT and establishes clear accountability across the organisation.
+A key strength of the model is the clear separation of governance oversight, executive accountability, security leadership, and technology operations.
 
-The structure also separates **security governance** from **technology implementation**. The **CISO** is responsible for cybersecurity strategy, policy, governance, and cyber-risk oversight, while **IT/Technology** remains accountable for implementing and operating technical controls. The **CRO/Risk** function provides enterprise-risk integration and independent challenge of significant cyber-risk assessments and acceptance decisions. This separation strengthens objectivity, reduces conflicts of interest, and improves risk-based decision-making.
+The structure also separates **security governance** from **technology implementation**. The **CISO** is responsible for cybersecurity strategy, policy, governance, and cyber-risk oversight, while **IT/Technology** remains accountable for implementing and operating technical controls.
 
-The **Security Governance/Steering Committee** operates as a cross-functional governance forum rather than an additional management layer. It brings together representatives from the **CISO**, **CRO/Risk**, **Legal/Compliance**, **Finance**, **HR**, and **IT/Technology** functions to review cybersecurity risks, policies, exceptions, control issues, and remediation priorities. **Business Unit Leaders** contribute operational context, implement enterprise security requirements within their areas of responsibility, and escalate risks that exceed delegated authority. **Specialised Working Groups**, such as Incident Response, provide detailed operational analysis and support informed governance decisions.
+The **Security Governance/Steering Committee** operates as a cross-functional governance forum rather than an additional management layer.
 
-The structure establishes clear two-way communication and escalation channels. Risk information, incidents, exceptions, and unresolved control issues move upward from **Business Units** and **Working Groups** through the **Security Governance/Steering Committee** and, where appropriate, to the **CEO**, **Risk & Audit Committee**, and **Board of Directors**. At the same time, risk appetite, strategic direction, policies, and governance decisions flow downward for implementation. This ensures that routine issues are resolved at the appropriate operational level while material risks receive timely executive and Board attention.
+The structure establishes clear two-way communication and escalation channels.
 
-Finally, the governance model is designed to scale with organisational growth. As TechGlobal expands, additional **Business Unit Representatives** or specialised governance groups, such as **Cloud Security**, **Third-Party Risk**, or **Data Governance**, can be incorporated without redesigning the overall structure. The proposed model therefore strengthens accountability, cross-functional participation, independent risk challenge, and Board visibility while remaining appropriate for TechGlobal’s current size and operational complexity.
+Finally, the governance model is designed to scale with organisational growth.
+
+```
+```
+
