@@ -252,6 +252,104 @@ Business Unit Security Liaison model is used to ensure that all Business Units a
 ## 3.5 Show how decisions and risk information move from operational forums to executive management and, where material, to the Board.
 ![TechGlobal Major Cyber-Risk Escalation Workflow](Task%203.5.png)        
 
+## 3.6 Required Evidence
+
+### 3.6.1 Sample Committee Agenda
+
+| # | Agenda Item | Purpose | Owner | Time |
+|---|-------------|---------|-------|------|
+| 1 | Previous actions and decision-log review | Confirm completed and overdue actions, outstanding decisions and changes in residual risk. | CISO | 10 min |
+| 2 | Enterprise cyber-risk dashboard | Review top cyber risks, KRIs, emerging risks and matters approaching or exceeding risk appetite. | CRO/Risk | 15 min |
+| 3 | Critical vulnerabilities and remediation | Review overdue critical/high-risk remediation, control weaknesses and matters requiring escalation. | IT | 10 min |
+| 4 | Policy and exception review | Review proposed policy changes, significant control exceptions and recommendations requiring higher approval. | CISO | 15 min |
+| 5 | Incident and lessons-learned review | Review significant incidents, root causes, lessons learned and required governance actions. | Incident Response Working Group Chair | 10 min |
+| 6 | Business Unit risks and implementation issues | Review risks, exceptions, control implementation challenges and other matters raised by Business Unit Security Liaisons. | Business Unit Security Liaisons | 10 min |
+| 7 | Investment and resource priorities | Review security investment and resource requirements requiring cross-functional or executive consideration. | CISO / Finance | 10 min |
+| 8 | Governance KPIs/KRIs | Review security governance performance, awareness, remediation and other agreed indicators. | CISO / HR | 5 min |
+| 9 | Executive escalations and next actions | Confirm matters requiring escalation to the Executive Security Council and assign action owners and due dates. | CISO | 5 min |
+
+---
+
+### 3.6.2 Sample Decision Log
+
+| Date | Decision / Issue | Decision Owner | Decision | Rationale | Actions / Owner | Review Date |
+|------|-----------------|---------------|----------|-----------|----------------|-------------|
+| 15 Oct 2026 | Critical MFA gap affecting privileged remote access | CISO | Require MFA implementation within 30 days, with immediate interim access restrictions and enhanced monitoring. | The weakness creates significant privileged-access exposure and requires prompt remediation. | IT: deploy MFA and interim controls. Business Units: confirm affected users. CISO: verify completion. | 15 Nov 2026 |
+| 12 Nov 2026 | High-risk cloud supplier exception | Authorized Business/Risk Owner; escalate to CEO if outside delegated authority | Permit a time-bound 90-day exception subject to compensating controls and remediation. | A business dependency exists, but compensating controls can temporarily reduce exposure while remediation is completed. | Vendor Owner: obtain remediation plan. CISO/CRO: monitor residual risk and remediation monthly. | 10 Feb 2027 |
+| 10 Dec 2026 | Security awareness programme requires additional role-based training | HR | Approve enhanced role-based awareness training for privileged users and managers. | Awareness results indicate that higher-risk roles require more targeted security training. | HR/CISO: develop and launch the programme and report completion and effectiveness metrics to the SGC. | 31 Mar 2027 |
+
+---
+
+### 3.6.3 12-Month Governance Calendar
+
+| Month | Recurring Governance Forums | Key Governance Activity / Milestone | Executive / Board Milestone |
+|--------|----------------------------|------------------------------------|-----------------------------|
+| Oct 2026 | SGC monthly meeting | Launch governance model, approve committee operating arrangements and confirm risk and escalation processes. | - |
+| Nov 2026 | SGC monthly meeting | Enterprise cyber-risk review, privileged-access/MFA review and establish policy-exception baseline. | - |
+| Dec 2026 | SGC monthly meeting; ESC quarterly meeting | Annual incident-response lessons review and review next-year security investment priorities. | Q4 cyber-risk briefing to Board / Risk Committee. |
+| Jan 2027 | SGC monthly meeting | Annual cybersecurity strategy and policy review planning, confirm governance roles, responsibilities and KPIs. | - |
+| Feb 2027 | SGC monthly meeting | Third-party risk portfolio review and critical supplier assurance review. | - |
+| Mar 2027 | SGC monthly meeting; ESC quarterly meeting | Incident-response tabletop exercise; review security-awareness performance. | Q1 cyber-risk briefing to Board / Risk Committee. |
+| Apr 2027 | SGC monthly meeting | Security architecture review and vulnerability-remediation trend analysis. | - |
+| May 2027 | SGC monthly meeting | Business Unit cyber-risk workshops and enterprise risk-register quality review. | - |
+| Jun 2027 | SGC monthly meeting; ESC quarterly meeting | Business continuity and disaster-recovery exercise and review recovery governance. | Q2 cyber-risk briefing to Board / Risk Committee. |
+| Jul 2027 | SGC monthly meeting | Mid-year security investment and KPI/KRI review and review ageing policy exceptions. | - |
+| Aug 2027 | SGC monthly meeting | Privileged-access recertification and high-risk third-party reassessment. | - |
+| Sep 2027 | SGC monthly meeting; ESC quarterly meeting | Annual governance effectiveness review and development of the next 12-month improvement roadmap. | Q3 cyber-risk briefing to Board / Risk Committee. |
+
+# Task 4 RACI Accountability Matrix (20 marks)
+
+When accountability is vague, incidents and decisions are delayed. Develop a RACI matrix that makes accountability visible and usable during normal operations and cyber incidents.
+
+## 4.1 Create a RACI matrix covering at least the 15 activities listed below.
+
+The RACI matrix below assigns accountability and responsibility for the 15 security governance activities specified in the assignment across the Board, CEO, CISO, CRO/Risk, Legal, Finance, HR, IT and Business Unit (BU) Leaders. A single Accountable (A) role is assigned wherever practicable to establish clear ownership, while Responsible (R) roles perform or coordinate the activity, Consulted (C) roles provide relevant expertise or input, and Informed (I) roles receive appropriate updates.
+
+| Governance Activity | Board | CEO | CISO | CRO/Risk | Legal | Finance | HR | IT | BU Lead |
+|--------------------|-------|-----|------|----------|-------|---------|----|----|---------|
+| Cybersecurity strategy approval | A | C | R | C | C | C | I | C | C |
+| Security policy approval | I | A | R | C | C | I | C | C | C |
+| Enterprise cyber-risk assessment | I | I | C | A/R | C | C | C | C | C |
+| Risk acceptance | I | A | C | C | C | C | I | C | R |
+| Security budget approval | I | A | R | C | I | C | I | C | C |
+| Security architecture approval | I | I | A | C | C | I | I | R | C |
+| Third-party security review | I | I | A | C | C | C | I | R | C |
+| Access governance | I | I | A | C | C | I | C | R | C |
+| Incident response governance | I | C | A | C | C | C | C | R | C |
+| Material incident escalation | I | A | R | C | C | C | C | R | C |
+| Regulatory notification decision | I | A | C | C | R | I | I | C | C |
+| Security awareness programme | I | I | C | C | C | I | A/R | I | C |
+| Vulnerability remediation oversight | I | I | A | C | I | I | I | R | C |
+| Business continuity / recovery governance | I | A | C | C | C | C | C | R | R |
+| Board cyber-risk reporting | I | A | R | C | C | C | I | C | I |
+
+---
+
+## 4.2 Identify and explain at least three problematic assignments that could create confusion, conflict or weak accountability.
+
+| Problematic Assignment | Risk Created | Correct Governance Treatment |
+|-----------------------|-------------|------------------------------|
+| Access governance - IT both approves and implements privileged access | Allowing the same function to approve, provision and review privileged access creates a self-approval conflict and increases the risk of excessive or unauthorized privileges remaining undetected. | Business or system owners should approve access based on business need, IT/IAM should provision and remove access, the CISO should oversee access-governance requirements and privileged-access logs and periodic independent access recertification should verify compliance. |
+| Security control ownership and assurance - CISO owns controls and independently assures their effectiveness | If the CISO both oversees the security programme and provides independent assurance over the same controls, self-review may prevent weaknesses in control design or operation from being objectively identified. | The CISO should own and monitor the security programme, while Internal Audit independently assesses governance and control effectiveness and reports significant assurance findings to the Board/Risk & Audit Committee. |
+| Regulatory notification - Incident Response Team makes the notification decision without Legal involvement | Technical incident severity may be incorrectly treated as equivalent to legal or regulatory reportability, resulting in inappropriate, delayed or missed notification decisions. | The Incident Response Team/CISO should establish the incident facts, scope and impact, Legal should determine the applicable legal and regulatory notification requirements and the authorized executive should remain accountable for material organizational decisions. |
+| Security budget approval - Finance drives prioritization without sufficient security-risk input | A predominantly financial assessment may priorities short-term cost reduction over the treatment of significant cybersecurity risks, potentially delaying necessary security investments. | The CISO should document the risk basis and expected risk reduction for proposed security investments, Finance should assess affordability and financial implications, CRO/Risk should provide risk challenge where appropriate and the CEO should make the final budget decision within delegated authority. |
+| Business continuity / recovery governance - too many functions involved in operational recovery decisions | Requiring consultation with numerous stakeholders before initiating recovery could create decision delays during a major disruption and extend service downtime. | Pre-approved recovery plans should define clear activation thresholds and authorize IT and affected Business Units to initiate immediate recovery actions. The CEO remains Accountable for enterprise-level recovery governance and significant executive decisions. |
+| Material incident escalation - CISO and IT have overlapping responsibilities | If both CISO and IT are treated as responsible for escalation, it may be unclear who determines materiality and formally triggers escalation during a live incident. | The CISO should coordinate severity and materiality assessment and trigger formal governance escalation, while IT should remain responsible for technical containment, remediation and recovery. The CEO remains Accountable for executive-level decisions arising from material incidents. |
+
+---
+
+## 4.3 Implementation guide explaining how managers should use the RACI matrix during planning, approvals and incidents
+
+Managers should use the RACI matrix throughout planning, approvals and incident response to ensure that governance responsibilities are understood and decisions are made by the appropriate authority. The Accountable (A) role owns the final outcome and confirms that required approvals and evidence are in place; Responsible (R) roles perform or coordinate the work; Consulted (C) roles provide relevant input before a decision is finalised; and Informed (I) roles receive appropriate updates.
+
+| Stage | How Managers Should Use the RACI Matrix |
+|--------|-----------------------------------------|
+| Planning | At the start of a governance activity, such as a policy review, risk assessment or architecture change, the initiating manager should identify the applicable A, R, C and I roles. These assignments should be recorded in the relevant work item, decision paper, project plan or change record. Where multiple Responsible roles exist, one operational lead should coordinate delivery to avoid duplication or gaps. |
+| Approvals | The Accountable role confirms that required work, evidence and consultation have been completed before providing final approval. Responsible roles should not approve matters outside their delegated authority. Where the required approval cannot be obtained or authority is unclear, the matter should be formally escalated rather than resolved through informal reassignment of accountability. |
+| Incidents | During an incident, the RACI clarifies governance authority but does not replace the Incident Response Plan or escalation workflow. The CISO coordinates security governance and escalation, IT performs technical containment and recovery, Legal assesses applicable notification requirements, and executive or Board authority addresses material business-risk decisions according to established escalation thresholds. Urgent decisions should not wait for a scheduled committee meeting. |
+| Escalation | Any decision exceeding the Accountable role's delegated authority should follow TechGlobal's escalation process. Operational matters move to the Security Governance / Steering Committee, matters requiring executive authority move to the Executive Security Council, and material, appetite-breaching or Board-reserved matters are escalated to the Board / Risk Committee. |
+| Review and Update | The Security Governance / Steering Committee should review the RACI at least annually and following significant organizational changes, material incidents or reviews that identify accountability gaps. Changes affecting governance authority should be formally documented and approved through the established governance process. |
+| Role Disputes | Where roles disagree about responsibility or accountability, the issue should not be resolved informally. The matter should first be referred to the CISO for clarification and, where it involves cross-functional or executive authority and remains unresolved, escalated to the Executive Security Council. |
 
 
 ```
