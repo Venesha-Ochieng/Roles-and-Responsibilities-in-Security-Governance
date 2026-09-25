@@ -61,51 +61,74 @@ The Board has asked you to replace the current informal model with a governance 
 
 ## 1.3 Design a Security Governance Organisation Chart showing reporting lines, oversight relationships and communication paths.
 
-### Direct reporting / accountability line
+**Legend**
 
-### Oversight, escalation or coordination line
+- **────────** Direct reporting / accountability line
+- **- - - - -** Oversight, escalation or coordination line
 
 ```text
-Board of Directors
-│
-├── Risk & Audit Committee
-│         │
-│         └─────────────────────────────┐
-│                                       │
-└── Chief Executive Officer (CEO) ◄─────┘
-      │
-      ├── Chief Information Security Officer (CISO)
-      │        │
-      │        ├── Security Governance Committee
-      │        │         │
-      │        │         ├── Business Unit Representatives
-      │        │         ├── HR Representative
-      │        │         ├── Finance Representative
-      │        │         ├── Legal / Compliance Representative
-      │        │         └── IT / Technology Representative
-      │        │
-      │        └── Security Working Groups
-      │                  ├── Incident Response
-      │                  ├── Third-Party Risk
-      │                  ├── Cloud Security
-      │                  └── Data Governance
-      │
-      ├── Chief Risk Officer (CRO)
-      │
-      ├── Legal / Compliance
-      │
-      ├── Finance
-      │
-      ├── Human Resources
-      │
-      └── IT / Technology
-                │
-                └── Technical Operations Teams
+                         BOARD OF DIRECTORS
+                                  │
+                                  │
+                                  ▼
+                     RISK & AUDIT COMMITTEE
+                                  │
+                    - - - - - - - - - - - -
+                                  │
+                                  ▼
+                       CHIEF EXECUTIVE OFFICER
+                                  │
+        ┌─────────────────────────┼──────────────────────────┐
+        │                         │                          │
+        ▼                         ▼                          ▼
+      CISO                     CRO / RISK            LEGAL / COMPLIANCE
+        │                         │                          │
+        │                         │                          │
+        └──────────────┬──────────┴──────────┬──────────────┘
+                       │                     │
+                       ▼                     ▼
+          SECURITY GOVERNANCE / STEERING COMMITTEE
+                       │
+      ┌────────────────┼────────────────┬─────────────────┐
+      │                │                │                 │
+      ▼                ▼                ▼                 ▼
+  FINANCE             HR          IT / TECHNOLOGY   BUSINESS UNITS
+                                                │
+                                                │
+                                                ▼
+                                  OPERATIONAL SECURITY TEAMS
+                                                │
+                                                ▼
+                                   SPECIALISED WORKING GROUPS
+                                   • Incident Response
+                                   • Cloud Security
+                                   • Third-Party Risk
+                                   • Data Governance
+```
 
-Business Units
-      │
-      └──────────────► Security Governance Committee
-                         (coordination, escalation and reporting)
+### Communication and Escalation Paths
+
+```text
+Operational Teams
+        │
+        ▼
+Business Units / IT / Working Groups
+        │
+        ▼
+Security Governance Committee
+        │
+        ▼
+CISO / CRO
+        │
+        ▼
+CEO
+        │
+        ▼
+Risk & Audit Committee
+        │
+        ▼
+Board of Directors
+```
 ```
 
 ## 1.4 Explain why the proposed structure is appropriate for a 2,500-employee technology organisation operating across five offices.
