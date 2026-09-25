@@ -351,6 +351,48 @@ Managers should use the RACI matrix throughout planning, approvals and incident 
 | Review and Update | The Security Governance / Steering Committee should review the RACI at least annually and following significant organizational changes, material incidents or reviews that identify accountability gaps. Changes affecting governance authority should be formally documented and approved through the established governance process. |
 | Role Disputes | Where roles disagree about responsibility or accountability, the issue should not be resolved informally. The matter should first be referred to the CISO for clarification and, where it involves cross-functional or executive authority and remains unresolved, escalated to the Executive Security Council. |
 
+# Task 5 Cyber-Risk Escalation and Segregation of Duties (20 marks)
+ 
+TechGlobal needs a consistent method for deciding when a cyber-risk issue must move beyond operational management and who is authorised to accept, defer or escalate that risk.
+ 
+## 5.1 Design a major cyber-risk escalation workflow beginning with operational detection or identification and ending with the appropriate executive or Board decision.
+![TechGlobal Major Cyber-Risk Escalation Workflow](Task%205.1.png)
 
+# Task 5 Cyber-Risk Escalation and Segregation of Duties (20 marks)
+
+## 5.2 Define at least three escalation levels (for example Operational, Executive and Board / Material Risk) and the criteria that trigger each level.
+
+| Escalation Level | Criteria / Trigger for Level | Decision Authority | Required Action |
+|------------------|-----------------------------|-------------------|----------------|
+| **Level 1 – Operational** | Low or moderate impact; issue is contained, limited business disruption, risk remains within established operational tolerance, and treatment is within delegated operational authority. | IT/Security Team and relevant System/Business Unit Owner | Assess, contain, remediate, document and monitor. Escalate to Level 2 if operational thresholds or authority are exceeded. |
+| **Level 2 – Executive** | Significant or cross-functional impact; major service disruption, significant resource requirement, potential legal, regulatory or financial implications or risk exceeds operational authority or tolerance. | CEO / Executive Security Council, supported by CISO, CRO/Risk and relevant functions | Determine treatment, allocate resources and make decisions within delegated executive authority. Escalate to Level 3 where materiality, risk appetite or Board-reserved thresholds are reached. |
+| **Level 3 – Board / Material Risk** | Risk exceeds Board-approved risk appetite or executive authority, is specifically Board-reserved or presents material strategic, regulatory, financial, operational or reputational exposure. | Board / Risk Committee | Provide oversight and make or confirm decisions reserved for Board authority, including direction on treatment or acceptance of material risk where applicable. |
+
+---
+
+## 5.3 Identify at least five segregation-of-duties or accountability weaknesses that could exist in TechGlobal's current IT-centric model. For each weakness, recommend a governance or control measure that reduces the conflict without creating unnecessary bureaucracy.
+
+| # | SoD / Accountability Weakness | Risk / Conflict Created | Recommended Governance or Control Measure | Oversight |
+|---|-------------------------------|-------------------------|-------------------------------------------|-----------|
+| 1 | IT approves and provisions privileged access | The same function may approve, implement and review access, creating a self-approval conflict and increasing the risk of excessive or unauthorized privileges. | Require the relevant Business/System Owner to approve privileged access based on business need. IT/IAM provisions the approved access, while periodic access recertification and privileged-access logs provide independent verification. | CISO |
+| 2 | IT implements security controls and assesses their effectiveness | IT may effectively review its own work, allowing weaknesses in control design or operation to remain unidentified or understated. | IT implements and operates technical controls; the CISO monitors control performance and compliance; independent assurance is performed periodically by Internal Audit or another appropriately independent assurance function. | CISO / Internal Audit |
+| 3 | IT identifies cyber risks and influences acceptance of the same risks | IT may favor accepting or deferring risks where remediation is costly, technically difficult or disruptive, weakening objective risk-based decision-making. | IT provides technical risk information and treatment options; the CISO assesses security exposure; CRO/Risk provides independent challenge; and the authorized Business/Risk Owner, CEO or Board accepts the risk according to delegated authority. | CRO/Risk |
+| 4 | IT manages incidents and determines regulatory notification requirements | Technical severity may be incorrectly treated as equivalent to legal reportability, potentially resulting in delayed, unnecessary or missed notifications. | IT and the Incident Response Team establish the technical facts, scope and impact. Legal assesses applicable notification requirements, while material organisational decisions follow the defined executive escalation process. | Legal |
+| 5 | IT identifies vulnerabilities, performs remediation and closes its own remediation actions | The same team may declare vulnerabilities resolved without sufficient verification that remediation is complete and effective. | IT performs remediation, while closure of critical/high-risk vulnerabilities requires documented evidence and independent verification by the security function or an authorised control owner. | CISO |
+| 6 | IT defines security requirements and approves exceptions to those requirements | IT could weaken or inconsistently apply controls by approving deviations from requirements that it is also responsible for implementing. | The CISO establishes enterprise security requirements. Business Units may request documented exceptions, but approval must follow the established risk-acceptance process and delegated authority. Significant exceptions are reviewed through the Security Governance / Steering Committee and escalated where necessary. | CISO / CRO/Risk |
+
+---
+
+## 5.4 Explain how significant decisions will be recorded, tracked, reviewed and closed so that TechGlobal has an auditable decision trail.
+
+TechGlobal will maintain a central governance decision log and cyber-risk register to ensure that significant cybersecurity decisions are recorded, tracked, reviewed and formally closed. This will provide a complete and auditable trail showing what was decided, who had authority to make the decision, why the decision was made, and whether the required actions were completed.
+
+| Stage | Process | Audit Evidence |
+|---------|---------|---------------|
+| **Record** | Each significant decision is assigned a unique reference and documented when it is made. The record captures the date, issue or risk, risk rating, supporting evidence, options considered, decision, decision owner, approval authority and rationale. | Decision ID, date/time, risk assessment, supporting evidence, decision owner, approval and documented rationale. |
+| **Track** | Actions arising from the decision are assigned to named owners with agreed target dates. Progress, overdue actions, changes in residual risk and any required escalation are monitored through the governance decision log and risk register. | Action owner, due date, status, progress updates, escalation records and updated residual-risk rating. |
+| **Review** | Significant and outstanding decisions are periodically reviewed by the Security Governance / Steering Committee. Executive-level matters are reviewed by the Executive Security Council, while material or Board-reserved matters are reviewed through the appropriate Board/Risk Committee process. | Committee minutes, decision-log updates, risk-register updates, review comments and evidence of escalation where required. |
+| **Close** | A decision or action is closed only after the responsible owner provides evidence that the agreed treatment or remediation has been completed and any remaining residual risk has been reviewed by the appropriate authority. | Remediation evidence, control-testing results, residual-risk assessment, closure approval and closure date. |
+| **Assure** | Governance records are retained in a controlled repository and remain available for management review and independent assurance. Internal Audit may periodically assess whether significant decisions followed approved authority, escalation and closure requirements. | Decision logs, risk registers, meeting minutes, approval records, supporting evidence and assurance findings. |
 ```
 
