@@ -251,63 +251,7 @@ Business Unit Security Liaison model is used to ensure that all Business Units a
 
 ## 3.5 Show how decisions and risk information move from operational forums to executive management and, where material, to the Board.
 
-The governance model establishes a structured escalation and reporting pathway that ensures cybersecurity risks, incidents, exceptions, remediation issues and governance decisions are reviewed at the appropriate level of authority. Routine operational matters are handled within operational forums, while significant and material matters are progressively escalated to executive management and the Board according to predefined thresholds and delegated authority.
 
-```text
-BOARD / RISK COMMITTEE
-(Board Oversight)
-│
-│ Receives:
-│ • Material cyber risks
-│ • Risk appetite breaches
-│ • Significant incidents
-│ • Board-reserved decisions
-│ • Annual cyber-risk reporting
-│
-▼
-EXECUTIVE SECURITY COUNCIL (ESC)
-(Executive Management)
-│
-│ Receives:
-│ • Significant incidents
-│ • High or material risks
-│ • Major investment requests
-│ • Unresolved SGC matters
-│ • Risks requiring executive authority
-│
-▼
-SECURITY GOVERNANCE / STEERING COMMITTEE (SGC)
-(Cross-Functional Governance)
-│
-│ Receives:
-│ • Risk assessments
-│ • Policy exceptions
-│ • Incident findings
-│ • Vulnerability and control issues
-│ • Working Group recommendations
-│
-▼
-OPERATIONAL FORUMS
-├── Business Units
-├── Incident Response Working Group
-├── IT / Security Operations
-└── Other Specialised Working Groups
-```
-
-### Information Escalation Flow
-
-| Governance Level | Information Received | Decisions / Outputs |
-|------------------|---------------------|---------------------|
-| **Operational Forums** | Incidents, vulnerabilities, control weaknesses, operational risks, exceptions and remediation updates. | Operational actions, incident-response activities, recommendations and escalation items. |
-| **Security Governance / Steering Committee (SGC)** | Risks, incidents, exceptions, Working Group recommendations, remediation requirements and governance issues. | Governance decisions, policy recommendations, remediation priorities, approved exceptions and escalations. |
-| **Executive Security Council (ESC)** | Material risks, major incidents, significant investments, unresolved governance issues and risks requiring executive authority. | Executive priorities, resource allocation, investment approval, risk-treatment direction and Board escalation. |
-| **Board / Risk Committee** | Material cyber risks, risk appetite breaches, significant incidents, assurance findings and Board-reserved matters. | Risk appetite decisions, strategic direction, oversight actions, approvals and governance challenge. |
-
-### Decision and Direction Flow
-
-Risk information flows **upward** through the governance structure to ensure increasing levels of oversight and authority are applied to significant issues. Strategic decisions, approved actions, remediation requirements, governance expectations and risk-treatment directions flow **downward** from the Board and Executive Security Council through the Security Governance / Steering Committee to operational teams for implementation.
-
-This model ensures that operational issues are addressed efficiently, significant risks receive executive attention, and material cybersecurity matters receive appropriate Board oversight and challenge.
 
 ```
 
