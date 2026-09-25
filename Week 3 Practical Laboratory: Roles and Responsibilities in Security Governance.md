@@ -250,7 +250,7 @@ Business Unit Security Liaison model is used to ensure that all Business Units a
 ---
 
 ## 3.5 Show how decisions and risk information move from operational forums to executive management and, where material, to the Board.
-![Task 3.5](uploaded-image-address)         
+![TechGlobal Major Cyber-Risk Escalation Workflow](Task%205.1.png)        
 
 
 
