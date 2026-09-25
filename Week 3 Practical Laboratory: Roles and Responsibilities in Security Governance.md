@@ -131,7 +131,7 @@ Board of Directors
 ```
 ```
 
-## 1.4 Explain why the proposed structure is appropriate for a 2,500-employee technology organisation operating across five offices.
+### 1.4 Explain why the proposed structure is appropriate for a 2,500-employee technology organisation operating across five offices.
 
 - The proposed governance structure is proportionate to TechGlobal’s size and operating model. With approximately 2,500 employees across five global offices, the organization requires stronger governance, accountability and risk oversight without introducing unnecessary bureaucracy. The structure therefore addresses the weaknesses of the existing IT-centric model while remaining practical and scalable.
 
