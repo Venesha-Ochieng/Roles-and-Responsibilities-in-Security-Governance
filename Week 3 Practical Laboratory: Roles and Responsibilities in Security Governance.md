@@ -146,4 +146,6 @@ The structure establishes clear two-way communication and escalation. Risk infor
 The structure is scalable. As TechGlobal expands, additional Business Unit representatives or specialized Working Groups, such as Cloud Security, Third-Party Risk or Data Governance, can be incorporated without fundamentally redesigning the governance architecture. Overall, the model strengthens accountability, cross-functional participation, independent risk challenge and Board visibility while remaining appropriate for TechGlobal’s current size and complexity.
 
 ```
+# Task 2 Governance Responsibility and Authority Matrix
 
+A governance chart only becomes effective when decision rights and accountabilities are explicit.
